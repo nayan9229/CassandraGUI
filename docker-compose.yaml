@@ -6,4 +6,4 @@ services:
         container_name: cassandra-gui
         ports:
             - 9114:3000
-        command: cassandra-web --hosts '209.97.164.196' --port '9042'
+        command: cassandra-web --hosts '127.0.0.1' --port '9042'
